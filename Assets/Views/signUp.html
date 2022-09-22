@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container-fluid vh-100 d-flex justify-content-center align-items-center">
+        <div class="container w-50">
+            <div class="p-4 border border-primary shadow rounded">
+                <div class="text-center text-primary">
+                    <h3>Sign Up</h3>
+                    <hr>
+                </div>
+                <div class="row mb-3">
+                    <div class="col form-group">
+                        <label for="nombre" class="form-label text-secondary">Nombre</label>
+                        <input type="text" id="nombre" class="form-control" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="col form-group">
+                        <label for="apellido" class="form-label text-secondary">Apellido</label>
+                        <input type="text" id="apellido" class="form-control" placeholder="Ingrese su apellido">
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col form-group">
+                        <label for="usuario" class="form-label text-secondary">Usuario</label>
+                        <input type="text" id="usuario" class="form-control" placeholder="Ingrese su usuario">
+                    </div>
+                    <div class="col form-group">
+                        <label for="password" class="form-label text-secondary">Contraseña</label>
+                        <input type="password" id="password" class="form-control" placeholder="Ingrese su contraseña">
+                    </div>
+                </div>
+                <div class="d-grid">
+                    <button class="btn btn-primary" onclick="SignUp()">Registrarse</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../App/main.js"></script>
+</body>
+
+</html>

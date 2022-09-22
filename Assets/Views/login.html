@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container-fluid d-flex vh-100 justify-content-center align-items-center">
+        <div class="container w-25">
+            <div class="p-4 pt-3 border border-primary rounded shadow">
+                <div class="text-center text-primary">
+                    <h3>Login</h3>
+                    <hr>
+                </div>
+                <div class="mb-3">
+                    <label for="usuario" class="form-label text-secondary">Usuario</label>
+                    <input type="text" name="usuario" id="usuario" class="form-control" placeholder="Ingresa tu usuario">
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="form-label text-secondary">Contraseña</label>
+                    <input type="password" name="password" id="password" class="form-control" placeholder="Ingresa tu contraseña">
+                </div>
+                <div class="d-grid">
+                    <button class="btn btn-primary" onclick="Login()">Ingresar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../App/main.js"></script>
+</body>
+
+</html>
